@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  border: 2px solid black;
+  padding: 50px;
+  width: 500px;
+}
+.input-container {
+  margin-bottom: 10px;
+}
+select {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+#generate-button {
+  margin-top: 10px;
+}
+
+#shape-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 100px 100px 100px 100px;
+  place-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: red;
+  display: inline-block;
+}
+
+.inputs {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.inputs input {
+  width: 100px;
+  height: 12px;
+}
+.shape-select {
+  columns: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#size-input {
+  width: 100px;
+  height: 25px;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+#size-input::placeholder {
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: lightgray;
+  border: 1px solid black;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
